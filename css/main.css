@@ -9,8 +9,7 @@ body,
     -webkit-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
     -moz-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
     -o-transition: all .6s cubic-bezier(.5, .2, .2, 1.1);
-    background-color: #101820FF;
-    color: #f2aa4cff;
+    background-color: #101820FF color: #f2aa4cff;
     overflow: hidden;
 }
 
@@ -26,11 +25,14 @@ body,
     left: 0;
 }
 
-#p2,
+#p2 {
+    left: 190%;
+}
+
 #p3,
 #p4,
 #p5 {
-    left: auto;
+    left: 195%;
 }
 
 #p1 {
@@ -152,6 +154,18 @@ a {
     color: #EBF0ED
 }
 
+.hint a {
+    color: #EBF0ED;
+    transition: all 250ms ease-out;
+    -webkit-transition: all 250ms ease-out;
+    -moz-transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-out;
+}
+
+.hint a:hover {
+    color: #EBF0ED;
+}
+
 .h2,
 h4 {
     color: #EBF0ED
@@ -216,7 +230,7 @@ h6 {
 .oneThird {
     max-width: 70%;
     float: right;
-    text-align: center;
+    text-align: justify;
     font-size: 12px;
     padding-right: 400px;
 }
@@ -226,7 +240,7 @@ h6 {
 }
 
 #about-icon {
-    border-radius: 30%;
+    border-radius: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -234,7 +248,8 @@ h6 {
 .center {
     display: block;
     margin: auto;
-    width: 25%;
+    width: 20%;
+    margin-top: 5%;
 }
 
 .about-head {
@@ -242,7 +257,7 @@ h6 {
     float: inherit;
     color: #f2aa4cff;
     position: relative;
-    padding-left: 40%
+    padding-left: 42%
 }
 
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
@@ -321,4 +336,9 @@ a {
     #container {
         width: 50%;
     }
+}
+
+#head-4 {
+    font-size: 14px;
+    color: #EBF0ED;
 }
