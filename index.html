@@ -1,15 +1,394 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
-<head>
+<head lang="en">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--Page Title-->
     <title>Tobi Dele-Safa - Portfolio Website</title>
+
+    <!--Meta Keywords and Description-->
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/faviconT.ico" title="Favicon" />
+
+    <!-- Main CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Namari Color CSS -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!--Icon Fonts - Font Awesome Icons-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0c3fb8d756.js" crossorigin="anonymous"></script>
+
+    <!-- Animate CSS-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+    <!--Google Webfonts-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status" class="la-ball-triangle-path">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!--End of Preloader-->
+
+    <div class="page-border" data-wow-duration="0.7s" data-wow-delay="0.2s">
+        <div class="top-border wow fadeInDown animated" style="visibility: visible; animation-name: fadeInDown;"></div>
+        <div class="right-border wow fadeInRight animated" style="visibility: visible; animation-name: fadeInRight;"></div>
+        <div class="bottom-border wow fadeInUp animated" style="visibility: visible; animation-name: fadeInUp;"></div>
+        <div class="left-border wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInLeft;"></div>
+    </div>
+
+    <div id="wrapper">
+
+        <header id="banner" class="scrollto clearfix" data-enllax-ratio=".5">
+            <div id="header" class="nav-collapse">
+                <div class="row clearfix">
+                    <div class="col-1">
+
+                        <!--Logo-->
+                        <div id="logo">
+
+                            <!--Logo that is shown on the banner-->
+                            <img src="images/logo.png" id="banner-logo" alt="Landing Page" />
+                            <!--End of Banner Logo-->
+
+                            <!--The Logo that is shown on the sticky Navigation Bar-->
+                            <img src="images/logo.png" id="navigation-logo" alt="Landing Page" />
+                            <!--End of Navigation Logo-->
+
+                        </div>
+                        <!--End of Logo-->
+
+                        <aside>
+
+                            <!--Social Icons in Header-->
+                            <ul class="social-icons">
+
+                                <li>
+                                    <a target="_blank" title="Twitter" href="http://www.twitter.com/TOBItheFIRST">
+                                        <i class="fab fa-twitter fa-1x"></i><span>Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Instagram" href="http://www.instagram.com/tobi.xox">
+                                        <i class="fab fa-instagram fa-1x"></i><span>Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Github" href="https://www.github.com/TobiD-S">
+                                        <i class="fab fa-github fa-1x"></i><span>Github</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/in/tobi-dele-safa/">
+                                        <i class="fab fa-linkedin fa-1x"></i><span>LinkedIn</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" title="Email" href="mailto:delesafatobi@gmail.com">
+                                        <i class="far fa-envelope fa-1x"></i><span>Email</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!--End of Social Icons in Header-->
+
+                        </aside>
+
+                        <!--Main Navigation-->
+                        <nav id="nav-main">
+                            <ul>
+                                <li>
+                                    <a href="#banner">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about">About</a>
+                                </li>
+                                <li>
+                                    <a href="#projects">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="#resume">Résumé</a>
+                                </li>
+                        </nav>
+                        <!--End of Main Navigation-->
+
+                        <div id="nav-trigger"><span></span></div>
+                        <nav id="nav-mobile"></nav>
+
+                    </div>
+                </div>
+            </div>
+            <!--End of Header-->
+
+            <!--Banner Content-->
+            <div id="banner-content" class="row clearfix">
+
+                <div class="col-38">
+
+                    <div class="section-heading">
+                        <h1>Hi! I'm Tobi</h1>
+                        <h2>MERN Stack Software Engineer</h2>
+                        <h3>HTML | CSS | JavaScript</h3>
+                    </div>
+
+                    <!--Call to Action-->
+                    <a href="mailto:delesafatobi@gmail.com" class="button">Get in touch!</a>
+                    <!--End Call to Action-->
+
+                </div>
+
+            </div>
+            <!--End of Row-->
+        </header>
+
+        <!--Main Content Area-->
+        <main id="content">
+
+            <!--Introduction-->
+            <section id="about" class="introduction scrollto">
+
+                <div class="row clearfix">
+
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>THE BRAIN</h3>
+                            <h2 class="section-title">About Me & How I Create Web Solutions</h2>
+                            <p class="section-subtitle">I am a junior software engineer, with experience in HTML5, CSS, as well as JavaScript. Well-organised, with great attention to details. I have great team collaboration skills, but can work alone if need be.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-2-3">
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fab fa-html5 fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>HTML5 &amp; CSS3</h4>
+                                <p>I have a great grasp of HTML and CSS concepts. As well as the application of CSS libraries such as Bootstrap.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fab fa-js fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>JavaScript</h4>
+                                <p>With a wide knowledge base in Vanilla JavaScript, including and not limited to it's application in DOM Manipulation</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fab fa-react fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>React</h4>
+                                <p>Proven working experience with React, creating applications such as Handy, a quiz app, a To-Do list, etc.</p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                        <!--Icon Block-->
+                        <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
+                            <!--Icon-->
+                            <div class="icon">
+                                <i class="fas fa-database fa-2x"></i>
+                            </div>
+                            <!--Icon Block Description-->
+                            <div class="icon-block-description">
+                                <h4>MongoDB</h4>
+                                <p>Back-End Engineering and Database manipulation, using MongoDB, a noSQL tool, and SQL. </p>
+                            </div>
+                        </div>
+                        <!--End of Icon Block-->
+
+                    </div>
+
+                </div>
+
+
+            </section>
+            <!--End of Introduction-->
+
+            <!--Projects-->
+            <section id="projects" class="scrollto clearfix">
+                <div class="row clearfix">
+
+                    <div class="col-3">
+
+                        <div class="section-heading">
+                            <h3>THE WORK</h3>
+                            <h2 class="section-title">Projects, Contributions & More</h2>
+                            <p class="section-subtitle">Here is a sneak peek of projects I have worked on, and am very proud of. I also actively contribute to the open-source community.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col-2-3">
+
+                        <a href="https://tobid-s.github.io/BMI-Calculator/" class="col-3">
+                            <img src="images/portfolio-images/calc.png" alt="BMI Calculator Project" />
+                            <div class="projects-overlay"><span>BMI Calculator</span></div>
+                        </a>
+                        <a href="https://tobid-s.github.io/Gif-Search-App/" class="col-3">
+                            <img src="images/portfolio-images/gif.jpg" alt="Gif Search Project" />
+                            <div class="projects-overlay"><span>Gif Search</span></div>
+                        </a>
+                        <a href="https://tobid-s.github.io/Handy-without-React/" class="col-3">
+                            <img src="images/portfolio-images/handy.png" alt="Handyman Project" />
+                            <div class="projects-overlay"><span>Handyman</span></div>
+                        </a>
+                        <a href="https://tobid-s.github.io/To-Do-List-App/" class="col-3">
+                            <img src="images/portfolio-images/todo.jpg" alt="To-Do List Project" />
+                            <div class="projects-overlay"><span>To-Do List</span></div>
+                        </a>
+                        <a href="https://tobid-s.github.io/News-Update-App/" class="col-3">
+                            <img src="images/portfolio-images/news.jpg" alt="News Update Project" />
+                            <div class="projects-overlay"><span>News Update</span></div>
+                        </a>
+                        <a href="https://tobid-s.github.io/GoT-Quiz-Project/" class="col-3">
+                            <img src="images/portfolio-images/quiz.png" alt="Quiz Project" />
+                            <div class="projects-overlay"><span>G.O.T. Quiz</span></div>
+                        </a>
+
+
+                    </div>
+
+                </div>
+            </section>
+            <!--End of Projects-->
+
+
+            <!--Content Section-->
+            <div id="resume" class="scrollto clearfix">
+
+                <div class="row no-padding-bottom clearfix">
+
+
+                    <!--Content Left Side-->
+                    <div class="col-3">
+                        <!--Quote-->
+                        <blockquote class="testimonial text-right bigtest">
+                            <q>Without ambition, one starts nothing. Without work, one finishes nothing. The prize will not be sent to you. You have to win it.'</q>
+                            <footer>– Ralph Waldo Emerson</footer>
+                        </blockquote>
+                        <!-- End of Quote-->
+
+                    </div>
+                    <!--End Content Left Side-->
+
+                    <!--Content of the Right Side-->
+                    <div class="col-3">
+                        <div class="section-heading">
+                            <h3>THE EXPERIENCE</h3>
+                            <h2 class="section-title">My Résumé</h2>
+                            <p class="section-subtitle">If you have an interesting project or opportunity for me, or you would just like to talk about tech and women in the tech space, then please email me. <br> And here's my downloadable résumé.</p>
+                        </div>
+                        <!--Call to Action-->
+                        <a href="https://drive.google.com/open?id=17u0VGKWngCcNCjbf0pSMnn2j_NbAgRQE" class="button">My Résumé <i class="fas fa-file" aria-hidden="true"></i></a>
+                        <!--End Call to Action-->
+                        </a>
+
+                    </div>
+                    <!--End Content Right Side-->
+
+                    <div class="col-3">
+                        <img src="images/Tobi.png" alt="Resume" />
+                    </div>
+
+                </div>
+
+            </div>
+            <!--End of Content Section-->
+
+        </main>
+        <!--End Main Content Area-->
+
+
+        <!--Footer-->
+        <footer id="landing-footer" class="clearfix">
+            <div class="row clearfix">
+
+                <p id="copyright" class="col-2">© 2019 Made with ❤ by <a href="http://www.github.com/TobiD-S">Tobi Dele-Safa⚡</a> All Rights Reserved.</p>
+
+                <!--Social Icons in Footer-->
+                <ul class="col-2 social-icons">
+
+                    <li>
+                        <a target="_blank" title="Twitter" href="http://www.twitter.com/TOBItheFIRST">
+                            <i class="fab fa-twitter fa-1x"></i><span>Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="Instagram" href="http://www.instagram.com/tobi.xox">
+                            <i class="fab fa-instagram fa-1x"></i><span>Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="behance" href="https://www.github.com/TobiD-S">
+                            <i class="fab fa-github fa-1x"></i><span>Github</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="behance" href="https://www.linkedin.com/in/tobi-dele-safa/">
+                            <i class="fab fa-linkedin fa-1x"></i><span>LinkedIn</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a target="_blank" title="Email" href="mailto:delesafatobi@gmail.com">
+                            <i class="far fa-envelope fa-1x"></i><span>Email</span>
+                        </a>
+                    </li>
+                </ul>
+                <!--End of Social Icons in Footer-->
+            </div>
+        </footer>
+        <!--End of Footer-->
+
+    </div>
+
+    <!-- Include JavaScript resources -->
+    <script src="js/jquery.1.8.3.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/featherlight.min.js"></script>
+    <script src="js/featherlight.gallery.min.js"></script>
+    <script src="js/jquery.enllax.min.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.stickyNavbar.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/images-loaded.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/site.js"></script>
+
+
 </body>
 
-</html>
+</html>s
